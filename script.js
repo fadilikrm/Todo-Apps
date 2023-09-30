@@ -123,7 +123,7 @@ function removeTaskFromCompleted(todoId) {
     document.dispatchEvent(new Event (RENDER_EVENT));
   }
 
-function undoTaskFormCompleted(todoId){
+function undoTaskFromCompleted(todoId){
     const todoTarget = findTodo(todoId);
 
     if (todoTarget == null) return;
